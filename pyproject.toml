@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tts-mcp-server"
+version = "0.1.0"
+description = "中文TTS聚合MCP Server：多引擎（Edge-TTS在线/Piper离线）+ 引擎级时间戳字幕对齐"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = ["mcp", "tts", "edge-tts", "chinese", "subtitles", "text-to-speech"]
+authors = [{ name = "tts-mcp" }]
+
+[project.optional-dependencies]
+edge = ["edge-tts>=7.2.0"]
+piper = ["piper-tts"]
+
+[project.scripts]
+tts-mcp = "tts_server:main"
+
+[tool.setuptools]
+py-modules = ["tts_server", "tts_engine"]
