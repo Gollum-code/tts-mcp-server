@@ -104,3 +104,21 @@ pip install tts-mcp-server[piper] # + Piper 离线引擎（可选，断网兜底
 ## License
 
 MIT。引擎适配层（`engines/edge` 依赖 edge-tts GPL-3.0、`engines/piper` 依赖 piper-tts GPL-3.0）通过 optional-dependencies + 晚绑定隔离，主包许可证干净。
+
+---
+
+## 系列（Chinese MCP Suite）
+
+> 中文内容创作/工具 MCP 全家桶，全本地、CPU、离线：
+
+
+- **tts-mcp-server**（本仓库）— TTS聚合+字幕对齐
+- [idphoto-mcp](https://github.com/Gollum-code/idphoto-mcp) — 本地证件照
+- [audio-post-mcp](https://github.com/Gollum-code/audio-post-mcp) — 音频后期
+- [video-workflow-mcp](https://github.com/Gollum-code/video-workflow-mcp) — 视频工作流
+- [poetry-mcp](https://github.com/Gollum-code/poetry-mcp) — 古诗文
+- [script-mcp](https://github.com/Gollum-code/script-mcp) — 口播文案
+- [asset-mcp](https://github.com/Gollum-code/asset-mcp) — 素材库
+- [idiom-mcp](https://github.com/Gollum-code/idiom-mcp) — 成语典故
+- [weather-mcp](https://github.com/Gollum-code/weather-mcp) — 天气/空气
+
