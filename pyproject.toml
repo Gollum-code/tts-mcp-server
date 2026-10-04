@@ -12,6 +12,8 @@ license = "MIT"
 keywords = ["mcp", "tts", "edge-tts", "chinese", "subtitles", "text-to-speech"]
 authors = [{ name = "tts-mcp" }]
 
+urls = { "Source" = "https://github.com/Gollum-code/tts-mcp-server", "Homepage" = "https://github.com/Gollum-code/tts-mcp-server" }
+
 [project.optional-dependencies]
 edge = ["edge-tts>=7.2.0"]
 piper = ["piper-tts"]
